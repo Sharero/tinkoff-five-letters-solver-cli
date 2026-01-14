@@ -18,7 +18,7 @@ cd ~/wordle
 2. Установить скрипт как команду `wordle`.
 
 ```bash
-sudo install -m 755 wordle.py /usr/local/bin/wordle \
+sudo install -m 755 wordle_solver.py /usr/local/bin/wordle \
   && sudo mkdir -p ~/.local/share/wordle \
   && sudo install -m 644 russian_five_letter_words.txt ~/.local/share/wordle/
 ```
